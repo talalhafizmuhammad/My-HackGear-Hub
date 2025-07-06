@@ -1,0 +1,98 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-shadow: 0 0 10px #00ff00;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#productDetails, #priceSummary, form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #00ff00;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ff00;
+}
+
+
+input, textarea, select, button {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    background: black;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus, select:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: black;
+}
+
+
+select {
+    text-align: center;
+}
+
+#educationDetails {
+    margin-top: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+
+
+@keyframes hackerText {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1, h2, h3, p {
+    animation: hackerText 1s ease-in-out;
+}
+
+body {
+    background-image: url('hacker-bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

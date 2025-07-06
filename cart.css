@@ -1,0 +1,131 @@
+:root {
+    --terminal-green: #88c78b;
+    --dark-bg: url();
+    --cyber-blue: #0ff;
+}
+
+body {
+    background-image: url(kali.jpg) ;
+    color: var(--terminal-green);
+    font-family: 'Courier New', monospace;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: var(--dark-bg);
+    border: 2px solid var(--terminal-green);
+    
+}
+
+th, td {
+    padding: 10px;
+    border: 2px solid var(--terminal-green);
+    text-align: left;
+}
+
+th {
+    background: rgba(0, 255, 0, 0.1);
+    text-transform: uppercase;
+
+}
+
+.checkout-form {
+    background: var(--dark-bg);
+    padding: 20px;
+    border: 2px solid var(--terminal-green);
+    box-shadow: 0 0 10px var(--terminal-green);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--terminal-green);
+    text-transform: uppercase;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    background: rgba(0, 255, 0, 0.05);
+    border: 1px solid var(--terminal-green);
+    color: var(--terminal-green);
+    font-family: 'Courier New', monospace;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px var(--terminal-green);
+}
+
+.checkout-btn,
+.remove-btn {
+    background: var(--dark-bg);
+    color: var(--terminal-green);
+    border: 1px solid var(--terminal-green);
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.checkout-btn:hover,
+.remove-btn:hover {
+    background: var(--terminal-green);
+    color: black;
+}
+
+.empty-cart {
+    text-align: center;
+    padding: 20px;
+    color: var(--terminal-green);
+}
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--dark-bg);
+    color: var(--terminal-green);
+    border: 1px solid var(--terminal-green);
+    padding: 10px;
+}
+
+.cyber-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--terminal-green);
+}
+
+
+@media (max-width: 768px) {
+    .checkout-form {
+        padding: 15px;
+    }
+    
+    th, td {
+        padding: 5px;
+        font-size: 0.9em;
+    }
+}
+button {
+    background-color: #88c78b;
+    color: rgb(6, 49, 6);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+button:hover{
+    color: azure;
+    background-color: darkgreen;
+    font-style: italic;
+    font-size: bolder;
+    box-shadow: 2px 2px 2px 2px #88c78b;
+}

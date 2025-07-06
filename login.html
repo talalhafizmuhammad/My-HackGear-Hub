@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form for Hackgear Hub</title>
+    <link rel="stylesheet" href="signup.css">
+    <script defer src="signup.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form class="form" action="dashboard.html" method="POST">
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account?</p>
+        <form action="signup.html" method="GET">
+            <button type="submit" class="btn1">Sign Up</button>
+        </form>
+    </div>
+</body>
+
+</html>

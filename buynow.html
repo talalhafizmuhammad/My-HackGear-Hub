@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Now</title>
+    <link rel="stylesheet" href="buyNow.css">
+    <script src="products.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Thanks for trusting our product</h1>
+    </header>
+    <main>
+        <section>
+            <table id="buyTable">
+            </table>
+        </section>
+        <section>
+            <h3>Shipping Details</h3>
+            <form id="shippingForm">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+                <br>
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+                <br>
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="contact" required>
+                <br>
+                <label for="zipcode">Zipcode:</label>
+                <input type="tel" id="zipcode" name="zipcode" required>
+                <br>
+                <button type="button" onclick="proceedToThankyou()">Click here to confirm order</button>
+                <br>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cyber Accessories. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function proceedToThankyou(){
+    const fullName = document.getElementById('fullName').value;
+    const address = document.getElementById('address').value;
+    const contact = document.getElementById('contact').value;
+    const zipcode = document.getElementById('zipcode').value;
+if(fullName && address && contact  && zipcode)
+{
+    window.location.href = 'thankyou.html'
+    
+}
+else{
+    alert(' please fill all the fields')
+}
+}
+    </script>
+
+</body>
+
+</html>

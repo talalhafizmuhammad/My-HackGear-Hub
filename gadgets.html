@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Products</title>
+    <link rel="stylesheet" href="products.css">
+    <script defer src="products.js"></script>
+</head>
+
+<body>
+   
+    <header>
+        <h1>Ethical Hacking and cybersecurity gadgets</h1>
+    </header>
+
+    <section class="productlist">
+        
+        <div class="product">
+            <img src="Gadget1.jpg" alt="Product 1">
+            <h5>Flipper Zero - Versatility for wireless network breaching and spoofing</h5>
+            <span class="price">Rs.145,230/- only</span>
+            <form>
+                <input type="button" value="Add to Cart" onclick="addToCart('prod7')">
+                <input type="button" value="Buy Now" onclick="buyNow('prod7')">
+            </form>
+           
+
+        </div>
+        <div class="product">
+            <img src="Gadget2.jpg" alt="Product 2">
+            <h5>Raspberry Pi - A cheap tool which makes car hacking easier</h5>
+            <span class="price">Rs. 25,280/- only</span>
+            <form>
+                <input type="button" value="Add to Cart" onclick="addToCart('prod8')">
+                <input type="button" value="Buy Now" onclick="buyNow('prod8')">
+            </form>
+
+        </div>
+        <div class="product">
+            <img src="Gadget3.jpg" alt="Product 3">
+            <h5>USB Rubber Ducky - A malware master tool</h5>
+            <span class="price">Rs. 118,230/- only</span>
+            <form>
+                <input type="button" value="Add to Cart" onclick="addToCart('prod9')">
+                <input type="button" value="Buy Now" onclick="buyNow('prod9')">
+            </form>
+
+        </div>
+    </section>
+    <form style="text-align: center;" action="dashboard.html" method="get">
+        <input type="submit" value="Back to HomePage"></form>
+
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackGear Hub - Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="cyber-grid"></div>
+    <div class="orb"></div>
+    <div class="orb"></div>
+
+    <header class="dashboard-header">
+        <div class="logo">HackGear Hub</div>
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <form action="#" method="get"><input type="submit" value="Home"></form>
+                </li>
+                <li>
+                    <form action="#categories" method="get"><input type="submit" value="Categories"></form>
+                </li>
+                <li>
+                    <form action="#contact" method="get"><input type="submit" value="Contact"></form>
+                </li>
+                <li>
+                    <form action="#about" method="get"><input type="submit" value="About"></form>
+                </li>
+            </ul>
+        </nav>
+        <form class="btn" action="cart.html" method="get">
+            <input type="submit" class="btn" value="Cart">
+        </form>
+    </header>
+
+    <form action="login.html" method="get">
+        <input type="submit" class="btn1" value="LogOut">
+    </form>
+
+    <section class="welcome-section">
+        <h1>Welcome to HackGear Hub</h1>
+        <p>Explore our exclusive products tailored for hackers and cybersecurity enthusiasts!</p>
+    </section>
+
+    <section id="categories" class="product-categories">
+        <h2>Product Categories</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="Accessories.jpg" alt="Accessories">
+                <h3>Accessories</h3>
+                <p>Discover unique hacker-themed accessories for daily use.</p>
+                <form action="accessories.html" method="get">
+                    <input type="submit" class="btn" value="Explore">
+                </form>
+            </div>
+            <div class="category-card">
+                <img src="Tools.jpg" alt="Hacking Tools">
+                <h3>Hacking Tools</h3>
+                <p>Equip yourself with the best tools for ethical hacking.</p>
+                <form action="tools.html" method="get">
+                    <input type="submit" class="btn" value="Explore">
+                </form>
+            </div>
+            <div class="category-card">
+                <img src="Tshirts.jpg" alt="Hacker T-Shirts">
+                <h3>Hacker T-Shirts</h3>
+                <p>Wear your passion with our exclusive hacker T-shirts.</p>
+                <form action="tshirts.html" method="get">
+                    <input type="submit" class="btn" value="Explore">
+                </form>
+            </div>
+            <div class="category-card">
+                <img src="Keychains.jpg" alt="Keychains">
+                <h3>Keychains</h3>
+                <p>Carry your hacker identity with stylish keychains.</p>
+                <form action="keychains.html" method="get">
+                    <input type="submit" class="btn" value="Explore">
+                </form>
+            </div>
+            <div class="category-card">
+                <img src="Book.jpg" alt="Books">
+                <h3>Books & Guides</h3>
+                <p>Learn and grow with our curated books and guides.</p>
+                <form action="books.html" method="get">
+                    <input type="submit" class="btn" value="Explore">
+                </form>
+            </div>
+            <div class="category-card">
+                <img src="gadgets.jpg" alt="Gadgets">
+                <h3>Gadgets</h3>
+                <p>Check out innovative tech gadgets for hackers.</p>
+                <form action="gadgets.html" method="get">
+                    <input type="submit" class="btn" value="Explore">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="about" class="category-card">
+        <h3>About Us</h3>
+        <p>We provide you all kinds of services regarding any need for the hacking devices, simulators, accesories and much more! For getting more info about us, contact on <strong><i>hackgearHub@gmail.com, or talalhafizm@gmail.com.</strong></p>
+    </div>
+
+    <div id="contact" class="category-card">
+        <h3>Contact Us</h3>
+        <p><strong>Hafiz Muhammad Talal (Ethical hacker & Cybersecurity Specialist)</strong></p>
+        <p><strong>Organizational mail:</strong> hackgearHub@org.com.pk</p>
+        <p><strong>Contact No:</strong> 03298834303</p>
+    </div>
+
+    <footer class="dashboard-footer">
+        <p>&copy; 2024 HackGear Hub. All rights reserved.</p>
+        <strong>For our terms and conditions and privacy policies, Visit</strong>
+        <p><a href="Privacy.html">Privacy Policies</a> | <a href="T&Cs.html">Terms and Conditions</a></p>
+    </footer>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
