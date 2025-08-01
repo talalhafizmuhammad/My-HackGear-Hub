@@ -18,11 +18,11 @@ Check it out here: [https://talalhafizmuhammad.github.io/hackgear-hub](https://t
 
 ## ✨ Features
 
-- 📁 Portfolio of Open-Source Projects (C++, Python, JS, etc.)
-- 💡 Multi-language Code Demos (like Pascal’s Triangle, Roman to Integer)
+- 📁 All data processing dynamically
 - 🧠 Cybersecurity Tools & Ethical Hacking Resources
-- 📊 LeetCode Streak Tracker & Progress Monitor
-- 🕹️ Mini-Games and Creative Experiments
+- 📊 Sign up log out restrictions
+- 🕹️ Automated Cart facility to update and delete data
+- 🪪 Personal parcel tracking ID built
 - 📱 Fully Responsive Design
 - 🔒 Dark/Light Mode Toggle *(optional/coming soon)*
 
